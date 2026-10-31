@@ -1,0 +1,31 @@
+name: Frontend factory task
+description: Human-created scoped frontend task; add factory-ready when requirements are complete.
+title: "[Frontend] "
+labels: []
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: What part of the frontend needs to change and why?
+    validations:
+      required: true
+  - type: textarea
+    id: requirements
+    attributes:
+      label: Requirements
+      description: Precise expected UI behavior and scope boundaries.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: Include responsive behavior, keyboard usage and relevant browser support.
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: Design references (optional)
+      description: Screenshots, Figma links, or existing components.

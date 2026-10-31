@@ -1,0 +1,8 @@
+{
+  "id": "developer",
+  "version": "1.0.0",
+  "runtime": "codex",
+  "sandbox": "workspace-write",
+  "prompt": "prompt.md",
+  "purpose": "Implement a scoped frontend change in an isolated worktree"
+}

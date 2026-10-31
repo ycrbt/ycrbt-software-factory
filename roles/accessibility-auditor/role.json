@@ -1,0 +1,8 @@
+{
+  "id": "accessibility-auditor",
+  "version": "1.0.0",
+  "runtime": "codex",
+  "sandbox": "read-only",
+  "prompt": "prompt.md",
+  "purpose": "Optional specialized accessibility assessment"
+}

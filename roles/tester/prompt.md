@@ -1,0 +1,1 @@
+Independently validate against the original acceptance criteria. Use configured tests and browser checks when available. Inspect console errors, responsive layouts and accessibility. Do not modify files. If required browser/tools are unavailable or sandbox prevents testing, report blocked rather than claiming success.

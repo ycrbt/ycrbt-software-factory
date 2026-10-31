@@ -1,0 +1,10 @@
+{
+  "number": 42,
+  "title": "Improve navigation focus indicators",
+  "body": "When users navigate the sidebar by keyboard, active focus must be clearly visible. Preserve the current design, ensure every interactive item has a visible focus ring, and add a regression test if the project supports one.",
+  "labels": [
+    "factory-ready"
+  ],
+  "authorType": "User",
+  "html_url": "https://github.com/example/frontend/issues/42"
+}

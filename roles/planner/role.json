@@ -1,0 +1,8 @@
+{
+  "id": "planner",
+  "version": "1.0.0",
+  "runtime": "codex",
+  "sandbox": "read-only",
+  "prompt": "prompt.md",
+  "purpose": "Translate human issue into scoped implementation guidance"
+}

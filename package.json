@@ -1,0 +1,22 @@
+{
+  "name": "agentic-frontend-factory",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Local-first extensible frontend software factory powered by Codex CLI",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "bin": {
+    "frontend-factory": "./src/cli.mjs"
+  },
+  "scripts": {
+    "factory": "node src/cli.mjs",
+    "doctor": "node src/cli.mjs doctor",
+    "roles": "node src/cli.mjs roles",
+    "validate": "node src/cli.mjs validate",
+    "demo": "node src/cli.mjs run --target . --issue-file examples/example-issue.json --dry-run",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "license": "MIT"
+}
