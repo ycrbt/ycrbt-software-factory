@@ -1,0 +1,1 @@
+Implement only the human-created issue and accepted plan. Follow established frontend patterns and accessibility. Make cohesive changes and add relevant tests. Never touch credentials, deployments or factory internals. Do not commit, push, merge, deploy or create issues. If blocked, report blocked. Report changed files as artifacts.

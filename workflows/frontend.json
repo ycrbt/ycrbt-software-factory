@@ -1,0 +1,41 @@
+{
+  "id": "frontend-v1",
+  "version": 1,
+  "description": "Human issue to validated local frontend change; no automatic merge or deploy.",
+  "steps": [
+    {
+      "id": "plan",
+      "role": "planner",
+      "dependsOn": []
+    },
+    {
+      "id": "implement",
+      "role": "developer",
+      "dependsOn": [
+        "plan"
+      ]
+    },
+    {
+      "id": "review",
+      "role": "reviewer",
+      "dependsOn": [
+        "implement"
+      ]
+    },
+    {
+      "id": "verify",
+      "role": "tester",
+      "dependsOn": [
+        "implement"
+      ]
+    },
+    {
+      "id": "integrate",
+      "role": "builtin:integration-gate",
+      "dependsOn": [
+        "review",
+        "verify"
+      ]
+    }
+  ]
+}

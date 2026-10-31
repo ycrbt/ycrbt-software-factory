@@ -1,0 +1,8 @@
+{
+  "id": "reviewer",
+  "version": "1.0.0",
+  "runtime": "codex",
+  "sandbox": "read-only",
+  "prompt": "prompt.md",
+  "purpose": "Independently review frontend code quality and scope"
+}

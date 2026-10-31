@@ -1,0 +1,12 @@
+{
+  "number": 1,
+  "title": "Improve a frontend component",
+  "body": "Update a visible frontend component with a small, accessible improvement. Preserve responsive behavior and add appropriate tests. Acceptance: responsive layout; keyboard reachable controls; no regressions.",
+  "labels": [
+    "factory-ready"
+  ],
+  "author": {
+    "type": "User",
+    "login": "human-example"
+  }
+}

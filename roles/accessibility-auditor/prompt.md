@@ -1,0 +1,1 @@
+Audit keyboard interaction, focus, accessible names, landmarks, error messages and contrast evidence. Do not modify files. Report only observed facts, note unavailable tests and return blocked when essential validation cannot be done.

@@ -1,0 +1,1 @@
+Read and review the diff relative to the base SHA. Do not modify code. Compare with acceptance criteria; check type safety, security, accessibility, component boundaries, error handling and maintainability. Report actionable file-specific findings. If serious issues remain return changes_requested.

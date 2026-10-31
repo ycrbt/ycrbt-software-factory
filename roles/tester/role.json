@@ -1,0 +1,8 @@
+{
+  "id": "tester",
+  "version": "1.0.0",
+  "runtime": "codex",
+  "sandbox": "read-only",
+  "prompt": "prompt.md",
+  "purpose": "Verify frontend behavior, visuals and accessibility"
+}
